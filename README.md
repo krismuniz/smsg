@@ -2,6 +2,7 @@
 [![Code-Style:Standard](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](http://standardjs.com/)
 [![License:MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
+
 `smsg` is a simple library for constructing structured messages (with attachments) for the Messenger Platform Send API.
 
 > `smsg` is a shortening of the term `structured message`
@@ -101,7 +102,7 @@ smsg.button_template(text, buttons)
 ```
 
 | Parameter | Type | Description | Required
-|--- |--- |--- | --
+|--- |--- |--- | ---
 | `text` | String | Text that appears in main body | Yes
 | `buttons` | Array | Set of buttons that appear as call-to-actions | Yes
 
@@ -114,7 +115,7 @@ smsg.generic_template(elements)
 ```
 
 | Parameter | Type | Description | Required
-|--- |--- |--- | --
+|--- |--- |--- | ---
 | `elements` | Array | Data for each bubble in message | Yes
 
 #### smsg#image
@@ -126,7 +127,7 @@ smsg.image(url)
 ```
 
 | Parameter | Type | Description | Required
-|--- |--- |--- | --
+|--- |--- |--- | ---
 | `url` | String | URL of image | Yes
 
 #### smsg#postback
@@ -138,7 +139,7 @@ smsg.postback(title, payload)
 ```
 
 | Parameter | Type | Description | Required
-|--- |--- |--- | --
+|--- |--- |--- | ---
 | `title` | String | Button title | Yes
 | `payload` | String | This data will be sent back to you via webhook | Yes
 
@@ -151,7 +152,7 @@ smsg.web_url(title, url)
 ```
 
 | Parameter | Type | Description | Required
-|--- |--- |--- | --
+|--- |--- |--- | ---
 | `title` | String | Button title | Yes
 | `url` | String | This URL is opened in a browser when the button is tapped | Yes
 
