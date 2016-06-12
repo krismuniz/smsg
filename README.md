@@ -1,7 +1,7 @@
 # smsg
+[![Travis](https://img.shields.io/travis/krismuniz/smsg.svg?style=flat-square)](https://travis-ci.org/krismuniz/smsg)
 [![Code-Style:Standard](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](http://standardjs.com/)
 [![License:MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-
 
 `smsg` is a simple library for constructing structured messages (with attachments) for the Messenger Platform Send API.
 
