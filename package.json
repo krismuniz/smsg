@@ -1,0 +1,25 @@
+{
+  "name": "smsg",
+  "version": "1.0.0",
+  "description": "A simple library for constructing structured messages for the Messenger Platform Send API.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "Facebook",
+    "Messenger",
+    "bots",
+    "botkit",
+    "chatbots"
+  ],
+  "author": "Kristian Muñiz <kristian.muniz@upr.edu> (http://www.krismuniz.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "standard": {
+    "globals": [ "describe", "it" ]
+  }
+}
