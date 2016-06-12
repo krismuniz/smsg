@@ -7,5 +7,3 @@ notifications:
    email: false
 script:
   - npm test
-after_script:
-  - npm run coveralls
