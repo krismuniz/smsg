@@ -229,6 +229,16 @@ describe('smsg', function () {
     })
   })
 
+  describe('smsg#text', function () {
+    it('returns a valid text message', function () {
+      let x = smsg.text('this is text')
+
+      expect(x).to.deep.equal({
+        text: 'this is text'
+      })
+    })
+  })
+
   describe('smsg#web_url', function () {
     it('returns a valid web_url button', function () {
       let x = smsg.web_url('Button 1', 'https://www.example.com')
