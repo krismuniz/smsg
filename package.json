@@ -20,6 +20,10 @@
     "istanbul": "^0.4.3",
     "mocha": "^2.5.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krismuniz/smsg.git"
+  },
   "standard": {
     "globals": [
       "describe",
